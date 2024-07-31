@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration for Marathon</title>
+    <title>Registration form</title>
 </head>
 <body>
-    <p>just for fun</p>
-    <div>a great way to learn with git</div>
+    <h1>Race Registration</h1>
+    <form action="">
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="firstname" required>
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="lastname" required>
+        </div>
+        <div>
+            <p>Select a Race:</p>
+            <div>
+                <input type="radio" name="race" id="basic" value="basic">
+                <label for="basic">1 Km</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="3km" value="3km">
+                <label for="3km">3 Km</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="5km" value="5km">
+                <label for="5km">5 Km</label>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="pass" required>
+            </div>
+
+            <div>
+                <label for="division">Age Group</label>
+                <select name="division" id="div">
+                    <option value="kids">Under 18</option>
+                    <option value="mid">18-30</option>
+                    <option value="adults">30-45</option>
+                    <option value="old">45+</option>
+                </select>
+            </div>
+            <button>Register</button>
+        </div>
+    </form>
 </body>
 </html>     
