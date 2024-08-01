@@ -1,0 +1,219 @@
+*{
+    background-color: rgb(184, 201, 215);
+}
+
+
+/* 
+*{} apply all
+#id{} id selector
+.class{} class selector
+h1,h2{} multiple selectors
+
+li a {} descendant selector
+
+h1 + a {} adjacent selector
+
+div > li {} direct child
+
+input[type="password"]
+section[class="post]"   attribute selector
+a[href$~*=''] all have different use case */ 
+.subscribe{
+    background-color: rgb(194, 0, 0);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    /* height: 36px;
+    width: 100px; */
+    padding: 10px 15px;
+    cursor: pointer;
+    vertical-align: top;
+    transition: opacity 0.2s;
+
+}
+
+.subscribe:hover{
+    opacity: 0.7;
+}
+.subscribe:active{
+    opacity: 0.4;
+}
+
+.join{
+    background-color: white;
+    border-style: solid;
+    border-color:rgb(41,118,211);
+    color: rgb(41,118,211);
+    border-width: 1px;
+    /* height: 36px;
+    width: 60px; */
+    border-radius: 2px;
+    padding: 9px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: background-color 0.2s,
+        color 0.2s;
+}
+
+.join:hover{
+    background-color:  rgb(41,118,211);
+    color: white;
+}
+
+.join:active{
+    opacity: 0.8;
+}
+
+.tweet{
+    background-color: rgb(2, 137, 255);
+    color: white;
+    border: none;
+    border-radius: 17px;
+    border: 1px;
+    height: 36px;
+    width: 76px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.uber{
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    font-size: 11px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.linkedin{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    height: 36px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.linkedin:hover{
+    background-color: rgb(7, 78, 149);
+}
+
+.linkedin2{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;
+    height: 36px;
+    width: 70px;
+    font-weight: bold;
+    transition: border 0.05s,background-color 0.05s;
+}
+
+.linkedin2:hover{
+    border: 2px solid rgb(9, 93, 176);
+    background-color: aliceblue;
+
+    /* border-color: blue; */
+    /* background-color: rgb(157, 194, 232); */
+}
+
+.github{
+        background-color: rgb(46, 164, 79);
+        color: white;
+        /* font-weight: bold; */
+        height: 36px;
+        width: 80px;
+        border-radius: 6px;
+        border: 1px;
+        margin-left: 10px;
+}
+
+
+#onetwothree{
+    margin: 10px;
+}
+
+.one{
+    background-color: rgb(52, 249, 8);
+    color: white;
+    border: 1px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.2s;
+}
+
+.one:hover{
+    padding: 10px 20px;
+
+}
+
+/* 
+.two{
+    background-color: rgb(52, 249, 8);
+    color: white;
+    border: 1px;
+    padding:10px 15px;
+    font-size: 20px;
+}
+
+
+.three{
+    background-color: rgb(52, 249, 8);
+    color: white;
+    border: 1px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 5px;
+} */
+
+.stretch{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin-left: 10px;
+    transition: padding 0.5s;
+}
+
+.stretch:hover{
+    padding: 15px 18px;
+}
+
+.back{
+    /* color: black; */
+    /* background-color: rgb(243, 243, 243); */
+    /* border: 1px solid; */
+
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.search{
+    margin-left:4px ;
+    margin-right: 4px;
+}
+.next{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
