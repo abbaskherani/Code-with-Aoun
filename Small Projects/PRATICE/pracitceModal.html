@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        .overlay{
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            /* justify-content:center; */
+            justify-content: end;
+            align-items:center;
+        }
+
+        .modal{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            width: 300px;
+            /* height: 150px; */
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .modal-title{
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .modal-text{
+            margin-bottom: 10px;
+        }
+
+
+        .fb-header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            /* height: 50px; */
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+
+        .fb-left{
+            /* width: 200px; */
+            /* margin-left: 40px; */
+            display: flex;
+            align-items: center;
+        }
+        .fb-img{
+            width: 40px;
+            margin-right: 10px;
+            border-radius: 20px;
+            /* height: 30px; */
+        }
+        .fb-name{
+            font-family: arial;
+            font-weight: bold;
+            /* display: inline-block; */
+        }
+
+        .fb-addfriend{
+            background-color: rgb(58, 58, 247);
+            color: white;
+            padding: 7px 12px;
+            border-radius: 6px;
+            border: none;
+            margin-right: 10px;
+        }
+
+        .fb-message{
+            background-color: rgb(217, 217, 218);
+            color: rgb(0, 0, 0);
+            padding: 7px 12px;
+            border-radius: 6px;
+            border: none;
+            /* margin-right: 10px; */
+        }
+
+        /* body{
+            padding-top: 70px;
+        } */
+
+        .db-sidebar1{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            top: 70px;
+            width: 60px;
+            background-color: azure;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: space-between; */
+        }
+
+        .img1{
+            width: 46px;
+            border-radius: 22px;
+            margin-top: 10px;
+            
+        }
+
+        .db-sidebar2{
+            position: fixed;
+            top: 70px;
+            bottom: 0;
+            left:60px;
+            width: 180px;
+            background-color: rgb(15, 32, 27);
+            padding: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .db-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* padding: 15px; */
+            margin-bottom: 10px;
+        }
+
+        .sidebar2-info{
+            font-weight: bold;
+            color: white;
+        }
+
+        .new-button{
+            color: rgb(150,150,150);
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        .channel{
+            color: rgb(150,150,150);
+            font-size: 14px;
+            margin-bottom:14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal-title">
+                Modal Title
+            </div>
+            <div class="modal-text">
+                This is a modal
+            </div>
+            <button>
+                Close
+            </button>
+        </div>
+    </div>
+
+<div class="fb-header">
+    <div class="fb-left">
+        <img class="fb-img" src="/HTML CSS Projects/YoutubeClone/images/channel-1.jpeg" alt="">
+        <p class="fb-name">Oliver Cat</p>
+    </div>
+    <div class="right-section">
+        <button class="fb-addfriend">Add Friend</button><button class="fb-message">Message</button>
+    </div>
+</div>
+
+<div class="db-sidebar1">
+    <div><img class="img1" src="/HTML CSS Projects/YoutubeClone/images/channel-1.jpeg" alt=""></div>
+    <div><img class="img1" src="/HTML CSS Projects/YoutubeClone/images/channel-2.jpeg" alt=""></div>
+    <div><img  class="img1" src="/HTML CSS Projects/YoutubeClone/images/channel-1.jpeg" alt=""></div>
+</div>
+<div class="db-sidebar2">
+    <div class="db-header">    <div class="sidebar2-info">INFO</div>
+    <div class="new-button">+</div>
+</div>
+
+    <div class="channel"># new-vidoes</div>
+    <div class="channel"># updates</div>
+    <div class="channel"># faq</div>
+</div>
+</body>
+</html>
