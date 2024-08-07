@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Ad</title>
+
+    <style>
+        body{
+            height: 3000px;
+        }
+        .close{
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            background-color: black;
+            color: white;
+            width: 42px;
+            height: 42px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            /* padding: 8px 10px; */
+            border-radius: 21px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .close-video{
+            position: absolute;
+            top: -14px;
+            left: -14px;
+            background-color: black;
+            color: white;
+            width: 34px;
+            height: 34px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            /* padding: 8px 10px; */
+            border-radius: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .video-box{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 320px;
+            height: 180px;
+            background-color: lightslategray;
+        }
+
+        .timestamp{
+            background-color: black;
+            position: absolute;
+            color: white;
+            bottom: 10px;
+            right: 10px;
+            padding: 3px;
+            font-family: Arial,
+             Helvetica, sans-serif;
+             font-size: 12px;
+        }
+
+        .product-container{
+            position: relative;
+            display: inline-block;
+        }
+
+        .product-img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .product-off{
+            background-color: black;
+            color: white;
+            position: absolute;
+            right: 0;
+            top: 5px;
+            padding: 6px;
+            font-size: 14px;
+        }
+
+        .overlay{
+            background-color: rgba(255, 255, 255, 0.9);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .add-cart{
+            padding: 10px 12px;
+            background-color: white;
+            font-size: 12px;
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="close">X</div>
+
+    <div class="video-box">
+        <div class="close-video">X</div>
+        <div class="timestamp">14:20</div>
+    </div>
+
+
+    <!-- <div class="product-container">
+        <img class="product-image" src="/HTML CSS Projects/YoutubeClone/images/thumbnail-1.webp">
+        <div class="promotion">20% OFF</div>
+        <div class="bottom-overlay">
+          <button class="add-to-cart-button">
+            Add to Cart
+          </button>
+        </div>
+      </div> -->
+
+
+      <div class='product-container'>
+        <img class="product-img" src="/HTML CSS Projects/YoutubeClone/images/thumbnail-1.webp" alt="">
+        <div class="product-off">
+            20% OFF
+        </div>
+
+        <div class="overlay">
+            <button class="add-cart">Add to Cart</button>
+        </div>
+      </div>
+</body>
+</html>

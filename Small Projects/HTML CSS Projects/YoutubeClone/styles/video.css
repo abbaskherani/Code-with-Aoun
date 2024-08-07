@@ -39,12 +39,25 @@
         width: 200px;       } */
 
       .profile-picture {
-        width: 40px;
+        width: 36px;
         border-radius: 50px;
       }
 
       .thumbnail-row {
-        margin-bottom: 12px;
+        margin-bottom: 10px;
+        position: relative;
+      }
+
+      .timestamp{
+        position: absolute;
+        background-color: black;
+        color: white;
+        font-family: Roboto, Arial;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 2px 4px;
+        bottom: 6px;
+        right: 6px;
       }
 
       .video-author,

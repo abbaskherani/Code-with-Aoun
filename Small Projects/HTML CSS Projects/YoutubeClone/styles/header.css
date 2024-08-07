@@ -9,8 +9,8 @@
     left: 0;
     right: 0;
     background-color: white;
-    border-bottom: 1px solid rgb(230, 230, 230) ;
-
+    border-bottom: 1px solid rgb(230, 230, 230);
+    z-index: 100;
 }
 
 .left-section{
@@ -52,6 +52,21 @@
     height: 24px;
 }
 
+.notifications-icon-container{
+    position: relative;
+}
+
+.notifications-count{
+    position:absolute;
+    top: -2px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding: 2px 5px;
+}
 .current-user-picture{
     height: 32px;
     border-radius: 16px;
